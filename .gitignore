@@ -1,0 +1,34 @@
+# Node / Dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Vite / Build outputs
+frontend/dist/
+frontend/dist-ssr/
+*.local
+
+# Java / Maven
+backend/target/
+*.class
+*.jar
+*.war
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDE & Editor Files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Antigravity Brain / Temp logs
+.system_generated/
+*.log
